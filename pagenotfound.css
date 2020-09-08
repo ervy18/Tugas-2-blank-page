@@ -70,3 +70,10 @@ html {
   text-decoration: none;
   color: white;
 }
+
+@media all and (max-width: 570px) {
+.menu-media img{
+  height: 15px;
+  margin-left: -2.5vw;
+}
+}
