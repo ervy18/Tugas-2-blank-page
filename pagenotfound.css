@@ -1,0 +1,72 @@
+* {
+  font-family: "montserrat", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  background-image: url("SAMPUL.png");
+  background-size: cover;
+  height: auto;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+
+.menu-media img{
+  height: 20px;
+}
+
+.container {
+  margin: 10% 0%;
+  text-align: center;
+}
+
+.container h2 {
+  font-size: 2vw;
+  font-weight: bold;
+}
+
+.container h1 {
+  font-size: 9vw;
+}
+
+.container p {
+  font-size: 1.4vw;
+}
+
+.container a {
+  text-decoration: none;
+  color: white;
+  background-color:rgb(111, 168, 152);
+  padding: 12px 24px;
+  display: inline-block;
+  border-radius: 25px;
+  font-size: 1vw;
+  text-transform: uppercase;
+  transition: 0.2s;
+  font-weight: bold;
+  margin-top: 2vw;
+}
+
+.container a:hover {
+  background-color:rgb(31, 135, 63);
+  text-decoration: none;
+  color: white;
+}
